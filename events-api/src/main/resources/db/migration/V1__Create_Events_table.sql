@@ -1,0 +1,5 @@
+create table EVENTS (
+  ID serial,
+  USER_ID VARCHAR(100) NOT NULL,
+  EVENT_ID VARCHAR(100) NOT NULL
+);
